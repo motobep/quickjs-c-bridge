@@ -21,6 +21,7 @@ add_library(${PLUGIN_NAME} SHARED
   ${QUICK_JS_LIB_DIR}/cutils.c
   ${QUICK_JS_LIB_DIR}/libregexp.c
   ${QUICK_JS_LIB_DIR}/libunicode.c
+  ${QUICK_JS_LIB_DIR}/dtoa.c
   ${QUICK_JS_LIB_DIR}/quickjs.c
   "${CXX_LIB_DIR}/libfastdev_quickjs_runtime.cpp"
 )

@@ -8,6 +8,7 @@ add_library(quickjs SHARED
     ${QUICK_JS_LIB_DIR}/cutils.c
     ${QUICK_JS_LIB_DIR}/libregexp.c
     ${QUICK_JS_LIB_DIR}/libunicode.c
+    ${QUICK_JS_LIB_DIR}/dtoa.c
     ${QUICK_JS_LIB_DIR}/quickjs.c
 )
 
